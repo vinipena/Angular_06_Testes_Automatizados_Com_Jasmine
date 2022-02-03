@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome Headless 97.0.4692.99 (Windows 10)" package="" timestamp="2022-01-28T15:15:35" id="0" hostname="DESKTOP-O8HNCE0" tests="8" errors="0" failures="0" time="0.187">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/97.0.4692.99 Safari/537.36"/>
+  </properties>
+  <testcase name="UniqueIdService #generateUniqueIdWithPrefix&#xA;  SHOULD throw  WHEN called with empty" time="0.004" classname="Chrome_Headless_97_0_4692_99_(Windows_10).UniqueIdService"/>
+  <testcase name="UniqueIdService #getNumberOfGeneratedUniqueIds&#xA;  SHOULD return the number of generated ids WHEN called" time="0.002" classname="Chrome_Headless_97_0_4692_99_(Windows_10).UniqueIdService"/>
+  <testcase name="UniqueIdService #generateUniqueIdWithPrefix&#xA;    SHOULD not generate duplicate ids WHEN called multiple times" time="0.002" classname="Chrome_Headless_97_0_4692_99_(Windows_10).UniqueIdService"/>
+  <testcase name="UniqueIdService #generateUniqueIdWithPrefix&#xA;  SHOULD generate id WHEN called with prefix" time="0.001" classname="Chrome_Headless_97_0_4692_99_(Windows_10).UniqueIdService"/>
+  <testcase name="LikeWidgetComponent #like&#xA;  SHOULD trigger (@Output liked) WHEN called" time="0.131" classname="Chrome_Headless_97_0_4692_99_(Windows_10).LikeWidgetComponent"/>
+  <testcase name="LikeWidgetComponent SHOULD NOT auto-generate an Id during NgOnInit WHEN (@Input id) is assigned" time="0.021" classname="Chrome_Headless_97_0_4692_99_(Windows_10).LikeWidgetComponent"/>
+  <testcase name="LikeWidgetComponent SHOULD auto-generate Id during NgOnInit WHEN (@Input id) is not assigned" time="0.014" classname="Chrome_Headless_97_0_4692_99_(Windows_10).LikeWidgetComponent"/>
+  <testcase name="LikeWidgetComponent SHOULD create component" time="0.012" classname="Chrome_Headless_97_0_4692_99_(Windows_10).LikeWidgetComponent"/>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
